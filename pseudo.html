@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: orange;
+            background-color: seagreen;
+            font-weight: 700;
+        }
+
+        .middle-input:focus {
+            color: blue;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: red
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: cornflowerblue;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: darkblue;
+        }
+
+        h3::before {
+            content: 'Hello ';
+        }
+
+        .special::after {
+            content: ' from Afser';
+            font-size: 60px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-input" type="text">
+    <input type="text"><br>
+    <a href="https://www.google.com/">Goto Google</a>
+    <a href="https://www.youtube.com/user/jawed">Never Visited</a>
+    <a href="https://afsertanveer.github.io/Donate-For-A-Better-World/">Goto Donate</a><br>
+
+    <h3 class="special">middle size header -1</h3>
+    <h3>middle size header -2</h3>
+    <h3 class="special">middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3 class="special">middle size header -5</h3>
+    <h3>middle size header -6</h3>
+
+    <ul>
+        <li>Kallu</li>
+        <li>Sada</li>
+        <li>Sodo Kallu</li>
+        <li>Puni</li>
+        <li>Lutha Sada</li>
+        <li>Lutha Sada2</li>
+        <li>Lutha Sada3</li>
+        <li>Lutha Kallu</li>
+    </ul>
+</body>
+
+</html>
